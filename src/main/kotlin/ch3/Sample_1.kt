@@ -1,5 +1,6 @@
 package ch3
 
+import ch3.some_package.Sample_2
 import java.util.*
 
 var sum = 0
@@ -23,4 +24,5 @@ fun main(args: Array<String>) {
     calSum()
     println(sum)
     T1_User().sayHello()
+    Sample_2()
 }
